@@ -20,11 +20,11 @@ document.querySelector('.check').addEventListener
     if(!guess){
         document.querySelector('.message').textContent = "no number selected"
     } else if(guess === secretNumber){
-        document.querySelector('.message').textContent = "TELEPATIIIII <333";
+        document.querySelector('.message').textContent = "You got the Number !";
         document.querySelector('.number').textContent = secretNumber;
         document.querySelector('body').style.backgroundColor = "#60b347"
         document.querySelector('.number').style.width = "30rem"
-        document.querySelector(".h1").textContent = "me i guess i was a shoulder to cry onn";
+        document.querySelector(".h1").textContent = "Thats amazing !";
 
         if(score > highScore){
             highScore = score;
